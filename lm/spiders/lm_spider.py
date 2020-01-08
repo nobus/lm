@@ -9,6 +9,10 @@ from scrapy.selector import Selector
 
 
 class LMSearchSpider(scrapy.Spider):
+    """
+        scrapy crawl lm_search -a search="something" -o data/lmresult.jl
+    """
+
     name = 'lm_search'
 
     def __init__(self, search=None, *args, **kwargs):
