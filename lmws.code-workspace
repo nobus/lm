@@ -3,5 +3,8 @@
 		{
 			"path": "."
 		}
-	]
+    ],
+    "settings": {
+        "python.pythonPath": "/home/nobus/.virtualenvs/lm/bin/python3.7"
+    }
 }
